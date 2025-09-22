@@ -1,69 +1,75 @@
-# React + TypeScript + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Access Method
 
-Currently, two official plugins are available:
+I've decided to deploy my website on github.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Github Pages**: [View my portfolio here](https://faizr206.github.io/my-portfolio/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Site Overview & Audience
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This portfolio website is designed as a **personal showcase** to present my skills, projects, and background in a clear and engaging way. The goal is to create a simple but professional digital presence that can be shared with peers, instructors, and potential collaborators.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+The primary audience includes **instructors**, **classmates**, and potentially **future employers** who want to quickly understand my work and interests. The site highlights who I am, what I’ve built, and what I aim to do in the future.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Site Map
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+The website is a **single-page application** with multiple sections:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Hero Section** → Greeting with a typing effect in multiple languages.
+- **About** → A short introduction about me.
+- **Projects** → A showcase of selected projects with brief descriptions and links.
+- _(Optional future sections: Skills, Contact)_
+
+Navigation links in the header scroll smoothly to each section.
+
+---
+
+## Design Notes
+
+- Built with **Vite + React + Tailwind CSS + DaisyUI** for a clean and modern UI.
+- Color palette and typography were chosen for a **professional yet approachable** feel.
+- The typing effect in multiple languages makes the site more **dynamic and personal**.
+- Sections are kept minimal to focus attention on key information.
+
+---
+
+## Screenshots
+
+_(Add actual screenshots as image links once you generate them)_
+
+Example placeholders:
+
+1. ![Hero Section](./screenshots/hero.png)
+2. ![About Section](./screenshots/about.png)
+3. ![Projects Section](./screenshots/projects.png)
+4. ![Responsive Layout](./screenshots/responsive.png)
+
+---
+
+## Credits
+
+- **Frameworks & Libraries**:
+
+  - [React](https://react.dev/)
+  - [Vite](https://vitejs.dev/)
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [DaisyUI](https://daisyui.com/)
+  - [react-simple-typewriter](https://www.npmjs.com/package/react-simple-typewriter)
+
+- **Icons & Media**: Vite logo and any free-to-use assets.
+
+---
+
+## Bonus Features
+
+- **Typing Effect with Multiple Languages**
+  - Implemented using `react-simple-typewriter`.
+  - Displays greetings in Indonesian, English, German, and Arabic with a looping typing effect.
+  - Makes the hero section more lively and personal.
+
+---
