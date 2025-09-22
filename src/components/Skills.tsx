@@ -23,7 +23,7 @@ function Skills() {
               </p>
               <div className="card-actions justify-end">
                 <a
-                  className="btn btn-primary"
+                  className="btn bg-sky-500 hover:bg-sky-600"
                   href="https://web.archive.org/web/20241010024551/http://soniclinguistic.id/home"
                   target="_blank"
                 >
@@ -47,7 +47,7 @@ function Skills() {
                 <a
                   href="https://skip-gamedev.itch.io/"
                   target="_blank"
-                  className="btn btn-primary"
+                  className="btn bg-sky-500 hover:bg-sky-600"
                 >
                   Itch.io webpage
                 </a>
@@ -67,7 +67,13 @@ function Skills() {
                 under time constraints.
               </p>
               <div className="card-actions justify-end">
-                <a href="https://codeforces.com/profile/farizz" target="_blank" className="btn btn-primary">Codeforces Profile</a>
+                <a
+                  href="https://codeforces.com/profile/farizz"
+                  target="_blank"
+                  className="btn bg-sky-500 hover:bg-sky-600"
+                >
+                  Codeforces Profile
+                </a>
               </div>
             </div>
           </div>

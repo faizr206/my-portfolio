@@ -28,14 +28,14 @@ function Hero() {
           /></h1>
           <p className="py-6 text-lg">
             A passionate{" "}
-            <span className="font-semibold text-primary">programmer</span> who
+            <span className="font-semibold text-sky-400">programmer</span> who
             loves building
             <span className="font-semibold"> web apps</span>,
             <span className="font-semibold"> AI projects</span>, and creating
             <span className="font-semibold"> visualizations</span>. Always
             curious to learn and experiment with new technologies.
           </p>
-          <a href="#projects" className="btn btn-primary">
+          <a href="#projects" className="btn bg-sky-400 hover:bg-sky-600">
             View Projects
           </a>
         </div>
