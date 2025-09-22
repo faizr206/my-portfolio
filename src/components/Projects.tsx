@@ -48,7 +48,7 @@ function Projects() {
             <time className="font-mono italic">2024</time>
             <div className="text-lg font-black">Sonic Linguistic Website</div>A
             platform developed for a national competition in science, sports,
-            and languages, helping participants access schedules and results. <a href="https://github.com/faizr206/WebSonlis24" className=" underline text-blue-500">Link to Github.</a>
+            and languages, helping participants access schedules and results. <a target="_blank" href="https://github.com/faizr206/WebSonlis24" className=" underline text-blue-500">Link to Github.</a>
           </div>
 
           <hr />
