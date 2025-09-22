@@ -1,4 +1,5 @@
 import picture from "../assets/1x/Artboard 1.png";
+import { Typewriter } from "react-simple-typewriter";
 
 function Hero() {
   return (
@@ -10,7 +11,21 @@ function Hero() {
         </figure> */}
         <img src={picture} className="max-w-sm rounded-lg shadow-2xl" />
         <div>
-          <h1 className="text-5xl font-bold">Hi, I’m Faiz 👋</h1>
+          <h1 className="text-5xl font-bold">
+          <Typewriter
+            words={[
+              "Halo, saya Faiz 👋", // Indonesian
+              "Hi, I’m Faiz 👋", // English
+              "Hallo, ich bin Faiz 👋", // German
+              "مرحباً، أنا فايز 👋", // Arabic
+            ]}
+            loop={0} // 0 = infinite
+            cursor
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1500}
+          /></h1>
           <p className="py-6 text-lg">
             A passionate{" "}
             <span className="font-semibold text-primary">programmer</span> who
@@ -20,7 +35,9 @@ function Hero() {
             <span className="font-semibold"> visualizations</span>. Always
             curious to learn and experiment with new technologies.
           </p>
-          <a href="#projects" className="btn btn-primary">View Projects</a>
+          <a href="#projects" className="btn btn-primary">
+            View Projects
+          </a>
         </div>
       </div>
     </div>
